@@ -78,7 +78,7 @@ const LoadingScreen = ({ onComplete }) => {
     <div className="loading-container">
       <div className="loading-animation">
         <div className="loading-logo">
-          {['N', 'E', 'W', '', 'L', 'E', 'A', 'P', '', 'I', 'N', 'I', 'T', 'I', 'A', 'T', 'I', 'V', 'E'].map((char, idx) => (
+          {['N', 'E', 'W', '', 'L', 'E', 'A', 'P', '', 'L', 'A', 'B', 'S'].map((char, idx) => (
             <span 
               key={idx} 
               className="logo-part"
