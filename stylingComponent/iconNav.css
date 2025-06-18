@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.iconHolder{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    font-size: 35px;
+    padding: 5px;
+    transition: 0.5s;
+    margin:5px;
+}
+.icon:hover{
+    color: #00B7FF;
+}
+
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    font-family: "Lexend", sans-serif;
+    padding: 10px;
+    /* font-family: 'Helvetica Neue', Arial, sans-serif; */
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .SubscribeContainer{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid whitesmoke;
+        /* height: 50px; */
+  }
+.stayConnectedText{
+    width: 350px;
+    font-weight: 500;
+    padding: 20px;
+    text-align: left;
+}
+.subscribeMainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+.inputContainer{
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 6px;
+}
+.emailInput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 4px;
+    font-size: 14px;
+}
+.submitButton{
+    background-color: whitesmoke;
+    color: #151515;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+.layerTwo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addressContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 15px; */
+    width: 550px;
+    /* margin-left: 10%; */
+    /* margin-top: 20px; */
+}
+.ImageCOntainer{
+    height: 80px;
+}
+.image{
+    height: 100%;
+}
+.somaiyaInfo{
+    text-align: left;
+    margin-left: 10px;
+}
+.collegeName{
+    padding: 5px;
+}
+.address{
+    font-size: 12px;
+    color: gray;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.email{
+    
+    font-size: 12px;
+    color: gray;
+    padding-left: 5px;
+}
+
+.copyrighContainer{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #151515;
+    border-radius: 10px;
+}
+.ccText{
+    font-family: "Lexend", sans-serif;
+    color: gray;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.ccicon{
+    font-family: "Lexend", sans-serif;
+    color: gray;
+}
+
+.ContactUsContainer{
+    display: flex;
+    width: 90%;
+    text-align: left;
+    flex-direction: column;
+}
+.ContactUsHeading{
+    font-size: 16px;
+    color: rgb(169, 169, 169);
+
+}
+.ContactUsLink{
+    color: #00B7FF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media(max-width:1150px){
+    @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.iconHolder{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.icon{
+    font-size: 35px;
+    padding: 5px;
+    transition: 0.5s;
+    margin:5px;
+}
+.icon:hover{
+    color: #00B7FF;
+}
+
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    font-family: "Lexend", sans-serif;
+    padding: 10px;
+    /* font-family: 'Helvetica Neue', Arial, sans-serif; */
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .SubscribeContainer{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid whitesmoke;
+  }
+.stayConnectedText{
+    width: 55%;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+.subscribeMainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    width: 38%;
+}
+.inputContainer{
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    border-radius: 5px;
+    padding-left: 6px;
+    width: 100%;
+}
+.emailInput{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 4px;
+    width: 95%;
+    font-size: 14px;
+}
+.submitButton{
+    background-color: whitesmoke;
+    color: #151515;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+}
+.layerTwo{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center ;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.addressContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 15px; */
+    width: 550px;
+    /* margin-left: 10%; */
+    /* margin-top: 20px; */
+    
+}
+.ImageCOntainer{
+    height: 80px;
+}
+.image{
+    height: 100%;
+}
+.somaiyaInfo{
+    text-align: left;
+    margin-left: 0px;
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+.collegeName{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.address{
+    font-size: 12px;
+    color: gray;
+    padding-left: 5px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.email{
+    
+    font-size: 12px;
+    color: gray;
+    padding-left: 5px;
+}
+
+.copyrighContainer{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #151515;
+    border-radius: 10px;
+}
+.ccText{
+    font-family: "Lexend", sans-serif;
+    color: gray;
+    font-weight: 500;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ccicon{
+    font-family: "Lexend", sans-serif;
+    color: gray;
+}
+
+.ContactUsContainer{
+    display: flex;
+    width: 90%;
+    text-align: left;
+    flex-direction: column;
+}
+.ContactUsHeading{
+    font-size: 16px;
+    color: rgb(169, 169, 169);
+
+}
+.ContactUsLink{
+    color: #00B7FF;
+    font-size: 14px;
+    font-weight: 500;
+}
+}
+
+@media (max-width: 480px) {
+    .addressContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .ImageCOntainer {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    
+    .somaiyaInfo {
+        margin-left: 0px;
+    }
+    
+    .collegeName {
+        font-size: 13px;
+    }
+    
+    .address, .email {
+        font-size: 10px;
+    }
+    
+    .ccText, .ccicon {
+        font-size: 10px;
+    }
+}
+
+/* For very small screens */
+@media (max-width: 320px) {
+    .collegeName {
+        font-size: 12px;
+    }
+    
+    .address, .email {
+        font-size: 8px;
+    }
+}

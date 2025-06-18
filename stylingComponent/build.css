@@ -1,0 +1,188 @@
+/* Importing K2D font */
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Importing Lexend Font */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* --profile------------------------------------------------------------------- */
+.profile{
+    background: linear-gradient(black,#111111,#151515,#111111,black);
+
+}
+
+.container{
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    flex: 1;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Title--------------------------------------------------------------------- */
+.titleBar{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff13;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* margin: 15px; */
+    /* flex: 1; */
+    height: 12vh;
+    width: 29vw;
+}
+.titleHeading{
+    font-size: 25px;
+    font-family: "K2D", sans-serif;
+
+        
+}
+.titleSubHeading{
+    font-family: "K2D", sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #00B7FF;
+}
+/* Descirbe------------------------------------------------------------------ */
+.descriptionTitle{
+    font-size: 25px;
+    font-family: "K2D", sans-serif;
+    
+
+}
+.descriptionText{
+    font-size: 14px;
+    font-family: "Lexend", sans-serif;
+    margin-top: 10px;
+    gap:20;
+    height: 90%;
+    overflow-x: scroll;
+    border-radius: 10px;
+}
+.descriptionContainer{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #ffffff13;
+    /* margin: 15px; */
+    /* flex: 1; */
+    /* overflow-y: hidden; */
+    width: 29vw;
+    height: 57vh;
+}
+/* Build------------------------------------------------------------------ */
+.components{
+    
+    margin-left: 20px;
+    display:inline-flex;
+    height: 70vh;
+    overflow: scroll;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+    /* flex: 6; */
+}
+.flexBox {
+    /* margin-left: 20px; */
+    display:inline-flex;
+    /* height: 70vh; */
+    overflow: scroll;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 60vw; */
+}
+.yearContainer{
+    /* flex: 1; */
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 5px solid gray;
+    text-align: left;
+    display: flex;
+    width: 15vw;
+    padding-left: 20px;
+}
+.yearButton{
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    font-family: "K2D", sans-serif;
+
+    text-align: left;
+    border: none;
+    padding: 5px;
+    color: gray;
+}
+/* Image--------------------------------------------------------------- */
+.image{
+    width: 100%;  
+    border-radius: 15px;
+    /* margin: 15px; */
+}
+.imageContainer{
+    /* flex: 1; */
+    width: 29vw;
+    height: 25vh;
+}
+/* Profile------------------------------------------------------------ */
+
+  .profileContainer {
+    display: flex;
+    align-items: center;
+    background-color: #212121;
+    border-radius: 10px;
+    padding: 0.8rem;
+    /* margin-bottom: 0.6rem; */
+    gap: 1rem;
+  }
+  
+  .profilePic {
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  .profileContent .username {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .profileContent .branchname {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .profileSets{
+    height: 90%;
+    overflow-y: scroll;
+}
+  
+/* Contribution---------------------------------------------------------------------- */
+.contributionContainer {
+    /* background-color: var(--card-bg); */
+    border-radius: 15px;
+    padding: 1rem;
+    height: 44vh;
+    /* flex: 1; */
+    width: 29vw;
+    background-color: #ffffff13;  
+  }  
+
+  
+  .contributerTitle {
+    font-size: 22px;
+    font-family: "K2D", sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+/* Extra----------- */
+/* .titleBar, .descriptionContainer, .imageContainer, .contributionContainer {
+    flex: 1 1 45%; 
+    min-width: 300px; 
+}    */

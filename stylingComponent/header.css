@@ -1,0 +1,194 @@
+/* Importing text for header */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+/* Importing text for nav link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 20px;
+    width: 100vw;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+    padding-right: 70px;
+    box-sizing: border-box;
+}
+
+.navHeading {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    padding: 2px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.navLink {
+    font-family: "Open Sans", sans-serif;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.navLink:hover {
+    color: #ccc;
+}
+
+.navLinkContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+
+.dropdownLink {
+    display: block;
+    padding: 10px 16px;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.dropdownLink:hover {
+    background-color: #333;
+}
+
+/* Mobile Styles */
+.hamburgerMenu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1001;
+}
+
+.hamburgerLine {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hamburgerLine.open:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburgerLine.open:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburgerLine.open:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.mobileSidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100vh;
+    background-color: #000;
+    z-index: 1000;
+    transition: right 0.3s ease;
+    padding-top: 80px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.mobileSidebar.open {
+    right: 0;
+}
+
+.mobileNav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.mobileNavLink {
+    font-family: "Open Sans", sans-serif;
+    padding: 12px 0;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}
+
+.mobileNavLinkContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+    border-bottom: 1px solid #333;
+}
+
+.mobileDropdownMenu {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.mobileDropdownLink {
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.mobileMenuOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+    .Header {
+        padding-right: 20px;
+    }
+    
+    .navbar {
+        display: none;
+    }
+    
+    .hamburgerMenu {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobileSidebar {
+        width: 80%;
+        right: -80%;
+    }
+    
+    .navHeading {
+        font-size: 1.5rem;
+    }
+}
