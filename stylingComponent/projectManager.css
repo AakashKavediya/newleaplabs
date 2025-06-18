@@ -1,5 +1,7 @@
+/* projectManager.css */
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Outfit:wght@100..900&display=swap');
-.leftPMcontainer{
+
+.project-left-section {
     padding: 25px;
     display: flex;
     flex-direction: row;
@@ -8,17 +10,21 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-.leftPMcontentContainer{
-    width: 45%;
 
+.project-left-content {
+    width: 45%;
 }
-.leftPMinfoContainer{}
-.projectHeading{
+
+.project-left-info {
+}
+
+.project-title {
     font-family: "Nosifer", sans-serif;
     font-size: 45px;
     gap: 10;
 }
-.projectDiscription{
+
+.project-description {
     font-family: "Outfit", sans-serif;
     color: gray;
     font-size: 16px;
@@ -26,37 +32,41 @@
     line-height: 2;
     text-align: justify;
 }
-.leftPMsmallImgContainer{
+
+.project-left-thumbnails {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
-
 }
-.leftPMsmallImage{
+
+.project-thumbnail {
     height: 80px;
     width: 150px;
     border-radius: 15px;
     margin: 10px;
 }
-.leftPMmainImageContainer{
+
+.project-left-main-image {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-right: 10px;
 }
-.leftPMminImage{
+
+.project-featured-image {
     height: 300px;
     border-radius: 20px;
-    border:1.5px solid white;
+    border: 1.5px solid white;
 }
-.leftPmvisitLink{
+
+.project-visit-link.left {
     font-family: "Outfit", sans-serif;
     font-size: 18px;
     margin-top: -20px;
     padding: 6px;
     padding-left: 30px;
     padding-right: 30px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
+    background: linear-gradient(90deg, white, whitesmoke, rgb(218, 218, 218));
     color: #333333;
     width: max-content;
     margin-left: auto;
@@ -66,68 +76,44 @@
     border: 2px solid gray;
 }
 
-
-
-
-.rightPMcontainer{
+.project-right-section {
     padding: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
     padding-left: 30px;
     padding-right: 30px;
 }
-.rightPMcontentContainer{
+
+.project-right-content {
     width: 45%;
+}
 
+.project-right-info {
 }
-.rightPMinfoContainer{}
-.projectHeading{
-    font-family: "Nosifer", sans-serif;
-    font-size: 45px;
-    gap: 10;
-}
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 16px;
-    gap: 10;
-    line-height: 2;
-    text-align: justify;
-}
-.rightPMsmallImgContainer{
+
+.project-right-thumbnails {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
+}
 
-}
-.rightPMsmallImage{
-    height: 80px;
-    width: 150px;
-    border-radius: 15px;
-    margin: 10px;
-}
-.rightPMmainImageContainer{
+.project-right-main-image {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-left: 10px;
 }
-.rightPMminImage{
-    height: 300px;
-    border-radius: 20px;
-    border:1.5px solid white;
-}
-.rightPmvisitLink{
+
+.project-visit-link.right {
     font-family: "Outfit", sans-serif;
     font-size: 18px;
     margin-top: -20px;
     padding: 6px;
     padding-left: 30px;
     padding-right: 30px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
+    background: linear-gradient(90deg, white, whitesmoke, rgb(218, 218, 218));
     color: #333333;
     width: max-content;
     margin-left: auto;
@@ -137,574 +123,169 @@
     border: 2px solid gray;
 }
 
-
-@media(max-width:1550){
-    @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Outfit:wght@100..900&display=swap');
-.leftPMcontainer{
-    padding: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.leftPMcontentContainer{
-    width: 50%;
-
-}
-.leftPMinfoContainer{}
-.projectHeading{
-    font-family: "Nosifer", sans-serif;
-    font-size: 38px;
-    gap: 10;
-}
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 14px;
-    gap: 10;
-    line-height: 2;
-    text-align: justify;
-}
-.leftPMsmallImgContainer{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-
-}
-.leftPMsmallImage{
-    height: 70px;
-    width: 140px;
-    border-radius: 15px;
-    margin: 10px;
-}
-.leftPMmainImageContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-right: 10px;
-}
-.leftPMminImage{
-    height: 280px;
-    border-radius: 20px;
-    border:1.5px solid white;
-}
-.leftPmvisitLink{
-    font-family: "Outfit", sans-serif;
-    font-size: 18px;
-    margin-top: -20px;
-    padding: 6px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
-    color: #333333;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid gray;
-}
-
-
-
-
-.rightPMcontainer{
-    padding: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+@media (max-width: 1550) {
+    .project-left-section {
+        padding: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.rightPMcontentContainer{
-    width: 50%;
-
-}
-.rightPMinfoContainer{}
-.projectHeading{
-    font-family: "Nosifer", sans-serif;
-    font-size: 38px;
-    gap: 10;
-}
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 16px;
-    gap: 10;
-    line-height: 2;
-    text-align: justify;
-}
-.rightPMsmallImgContainer{
-    display: flex;
-    flex-direction: row;
-
-}
-.rightPMsmallImage{
-    height: 70px;
-    width: 140px;
-    border-radius: 15px;
-    margin: 10px;
-}
-.rightPMmainImageContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-left: 10px;
-}
-.rightPMminImage{
-    height: 280px;
-    border-radius: 20px;
-    border:1.5px solid white;
-}
-.rightPmvisitLink{
-    font-family: "Outfit", sans-serif;
-    font-size: 18px;
-    margin-top: -20px;
-    padding: 6px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
-    color: #333333;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid gray;
-}
-
-}
-
-
-@media(max-width:1350){
-    @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Outfit:wght@100..900&display=swap');
-.leftPMcontainer{
-    padding: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.leftPMcontentContainer{
-    width: 50%;
-
-}
-.leftPMinfoContainer{}
-.projectHeading{
-    font-family: "Nosifer", sans-serif;
-    font-size: 32px;
-    gap: 10;
-}
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 14px;
-    gap: 10;
-    line-height: 2;
-    text-align: justify;
-}
-.leftPMsmallImgContainer{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-
-}
-.leftPMsmallImage{
-    height: 60px;
-    width: 120px;
-    border-radius: 15px;
-    margin: 10px;
-}
-.leftPMmainImageContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    /* margin-right: 10px; */
-}
-.leftPMminImage{
-    height: 230px;
-    border-radius: 20px;
-    border:1.5px solid white;
-}
-.leftPmvisitLink{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    margin-top: -20px;
-    padding: 6px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
-    color: #333333;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid gray;
-}
-
-
-
-
-.rightPMcontainer{
-    padding: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    .project-left-content {
+        width: 50%;
+    }
     
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.rightPMcontentContainer{
-    width: 50%;
-
-}
-.rightPMinfoContainer{}
-
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 16px;
-    gap: 10;
-    line-height: 2;
-    text-align: justify;
-}
-.rightPMsmallImgContainer{
-    display: flex;
-    flex-direction: row;
-
-}
-.rightPMsmallImage{
-    height: 60px;
-    width: 120px;
-    border-radius: 15px;
-    margin: 10px;
-}
-.rightPMmainImageContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    /* margin-left: 10px; */
-}
-.rightPMminImage{
-    height: 230px;
-    border-radius: 20px;
-    border:1.5px solid white;
-}
-.rightPmvisitLink{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    margin-top: -20px;
-    padding: 6px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
-    color: #333333;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid gray;
-}
-
-}
-
-
-@media(max-width:1150){
-    @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Outfit:wght@100..900&display=swap');
-.leftPMcontainer{
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.leftPMcontentContainer{
-    width: 50%;
-
-}
-.leftPMinfoContainer{}
-.projectHeading{
-    font-family: "Nosifer", sans-serif;
-    font-size: 28px;
-    gap: 10;
-}
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 14px;
-    gap: 10;
-    line-height: 2;
-    text-align: justify;
-}
-.leftPMsmallImgContainer{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-
-}
-.leftPMsmallImage{
-    height: 60px;
-    width: 120px;
-    border-radius: 15px;
-    margin: 10px;
-}
-.leftPMmainImageContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    /* margin-right: 10px; */
-}
-.leftPMminImage{
-    height: 200px;
-    border-radius: 20px;
-    border:1.5px solid white;
-}
-.leftPmvisitLink{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    margin-top: -20px;
-    padding: 6px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
-    color: #333333;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid gray;
-}
-
-
-
-
-.rightPMcontainer{
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    .project-title {
+        font-size: 38px;
+    }
     
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.rightPMcontentContainer{
-    width: 50%;
-
-}
-.rightPMinfoContainer{}
-
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 16px;
-    gap: 10;
-    line-height: 2;
-    text-align: justify;
-}
-.rightPMsmallImgContainer{
-    display: flex;
-    flex-direction: row;
-
-}
-.rightPMsmallImage{
-    height: 60px;
-    width: 120px;
-    border-radius: 15px;
-    margin: 10px;
-}
-.rightPMmainImageContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    /* margin-left: 10px; */
-}
-.rightPMminImage{
-    height: 180px;
-    border-radius: 20px;
-    border:1.5px solid white;
-}
-.rightPmvisitLink{
-    font-family: "Outfit", sans-serif;
-    font-size: 16px;
-    margin-top: -20px;
-    padding: 6px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
-    color: #333333;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid gray;
+    .project-description {
+        font-size: 14px;
+    }
+    
+    .project-thumbnail {
+        height: 70px;
+        width: 140px;
+    }
+    
+    .project-featured-image {
+        height: 280px;
+    }
+    
+    .project-right-section {
+        padding: 25px;
+    }
+    
+    .project-right-content {
+        width: 50%;
+    }
+    
+    .project-featured-image {
+        height: 280px;
+    }
 }
 
+@media (max-width: 1350) {
+    .project-left-content {
+        width: 50%;
+    }
+    
+    .project-title {
+        font-size: 32px;
+    }
+    
+    .project-thumbnail {
+        height: 60px;
+        width: 120px;
+    }
+    
+    .project-featured-image {
+        height: 230px;
+    }
+    
+    .project-visit-link.left,
+    .project-visit-link.right {
+        font-size: 16px;
+    }
+    
+    .project-right-content {
+        width: 50%;
+    }
+    
+    .project-featured-image {
+        height: 230px;
+    }
 }
 
-
-@media(max-width:1000){
-    @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Outfit:wght@100..900&display=swap');
-.leftPMcontainer{
-    /* padding: 2px; */
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-    /* padding-left: 10px; */
-    /* padding-right: 10px; */
-}
-.leftPMcontentContainer{
-    width: 100%;
-
-}
-.projectHeading{
-    font-family: "Nosifer", sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    gap: 8;
-    margin-bottom: 5px;
-}
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 14px;
-    gap: 10;
-    line-height: 1;
-    text-align: justify;
-}
-.leftPMsmallImgContainer{
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    display: none;
-}
-.leftPMsmallImage{
-    height: 50px;
-    width: 100px;
-    border-radius: 15px;
-    margin: 10px;
-}
-.leftPMmainImageContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 0px;
-    /* margin-right: 10px; */
-}
-.leftPMminImage{
-    width: 100%;
-    /* border-radius: 20px; */
-    border:1.5px solid white;
-}
-.leftPmvisitLink{
-    font-family: "Outfit", sans-serif;
-    font-size: 14px;
-    margin-top: -20px;
-    padding: 6px;
-    padding-left: 25px;
-    padding-right: 25px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
-    color: #333333;
-    width: max-content;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid gray;
-}
-.leftPMmainImageContainer{
-    margin-right: 0;
+@media (max-width: 1150) {
+    .project-left-section {
+        padding: 10px;
+    }
+    
+    .project-featured-image {
+        height: 200px;
+    }
+    
+    .project-right-section {
+        padding: 10px;
+    }
+    
+    .project-featured-image {
+        height: 180px;
+    }
 }
 
-
-
-
-.rightPMcontainer{
-    /* padding: 2px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 15px;
-    align-items: center;
-    /* padding-left: 10px; */
-    border-radius: 10px;
-    margin-left: 0;
-    margin-right: 0;
-
-    /* padding-right: 10px; */
-}
-.rightPMcontentContainer{
-    width: 100%;
-
-}
-
-.projectDiscription{
-    font-family: "Outfit", sans-serif;
-    color: gray;
-    font-size: 14px;
-    gap: 10;
-    line-height: 1;
-    text-align: justify;
-}
-.rightPMsmallImgContainer{
-    display: flex;
-    flex-direction: row;
-    display: none;
-
-}
-.rightPMsmallImage{
-    height: 50px;
-    width: 100px;
-    border-radius: 0px;
-    margin: 10px;
-}
-.rightPMmainImageContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 5px;
-}
-.rightPMminImage{
-    width: 100%;
-    /* border-radius: 20px; */
-    border-radius: 10px;
-    margin-right: 0px;
-    border:1.5px solid white;
-}
-.rightPmvisitLink{
-    font-family: "Outfit", sans-serif;
-    font-size: 14px;
-    margin-top: -20px;
-    padding: 6px;
-    padding-left: 25px;
-    padding-right: 25px;
-    background: linear-gradient(90deg, white, whitesmoke,rgb(218, 218, 218));
-    color: #333333;
-    width: max-content;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    border-radius: 10px;
-    font-weight: bold;
-    border: 2px solid gray;
-}
-.rightPMmainImageContainer{
-    margin-left: 0;
-}
-
-
+@media (max-width: 1000) {
+    .project-left-section {
+        flex-direction: column-reverse;
+        margin-bottom: 25px;
+    }
+    
+    .project-left-content {
+        width: 100%;
+    }
+    
+    .project-title {
+        font-size: 20px;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+    
+    .project-description {
+        line-height: 1;
+    }
+    
+    .project-left-thumbnails {
+        display: none;
+    }
+    
+    .project-featured-image {
+        width: 100%;
+    }
+    
+    .project-visit-link.left {
+        font-size: 14px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project-left-main-image {
+        margin-right: 0;
+    }
+    
+    .project-right-section {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    
+    .project-right-content {
+        width: 100%;
+    }
+    
+    .project-description {
+        line-height: 1;
+    }
+    
+    .project-right-thumbnails {
+        display: none;
+    }
+    
+    .project-featured-image {
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 0px;
+    }
+    
+    .project-visit-link.right {
+        font-size: 14px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .project-right-main-image {
+        margin-left: 0;
+    }
 }
