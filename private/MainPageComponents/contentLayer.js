@@ -8,7 +8,7 @@ const ContentLayer = () => {
     const [isTypingStarted, setIsTypingStarted] = useState(false);
     const fullText = "EXPLORE THE EARTH FROM SPACE";
     const [currentIndex, setCurrentIndex] = useState(0);
-    const pattern = [75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75];
+    const pattern = [75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75];
     const TypingVibration = () => {
                 window.navigator.vibrate(pattern[0]);
 
