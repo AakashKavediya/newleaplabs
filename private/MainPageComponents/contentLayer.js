@@ -26,7 +26,6 @@ const ContentLayer = () => {
     useEffect(() => {
         if (isTypingStarted && currentIndex < fullText.length) {
             const typingTimeout = setTimeout(() => {
-                TypingVibration();
                 setDisplayText(prevText => prevText + fullText[currentIndex]);
                 setCurrentIndex(prevIndex => prevIndex + 1);
             }, 150); // Typing speed
