@@ -9,6 +9,7 @@ import SideNav from "@/private/footer/sideNav";
 import Footer from "@/private/footer/footer";
 import ProjectManager from "@/private/MainPageComponents/projectManager";
 import ScreenThree from "@/private/MainPageComponents/screenThree";
+import { Analytics } from "@vercel/analytics/next"
 export default function Home() {
   return (
       <div>
