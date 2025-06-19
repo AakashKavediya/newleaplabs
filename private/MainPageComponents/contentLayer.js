@@ -10,6 +10,7 @@ const ContentLayer = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const pattern = [75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75];
     const TypingVibration = () => {
+                window.navigator.vibrate(pattern[0]);
 
     }
 
@@ -25,7 +26,7 @@ const ContentLayer = () => {
     useEffect(() => {
         if (isTypingStarted && currentIndex < fullText.length) {
             const typingTimeout = setTimeout(() => {
-                window.navigator.vibrate(pattern[0]);
+                TypingVibration();
                 setDisplayText(prevText => prevText + fullText[currentIndex]);
                 setCurrentIndex(prevIndex => prevIndex + 1);
             }, 150); // Typing speed
