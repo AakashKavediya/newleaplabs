@@ -8,6 +8,10 @@ const ContentLayer = () => {
     const [isTypingStarted, setIsTypingStarted] = useState(false);
     const fullText = "EXPLORE THE EARTH FROM SPACE";
     const [currentIndex, setCurrentIndex] = useState(0);
+    const pattern = [75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75,75];
+    const TypingVibration = () => {
+
+    }
 
     useEffect(() => {
         // This timeout delays the start of typing by 5 seconds
@@ -21,6 +25,7 @@ const ContentLayer = () => {
     useEffect(() => {
         if (isTypingStarted && currentIndex < fullText.length) {
             const typingTimeout = setTimeout(() => {
+                window.navigator.vibrate(pattern[0]);
                 setDisplayText(prevText => prevText + fullText[currentIndex]);
                 setCurrentIndex(prevIndex => prevIndex + 1);
             }, 150); // Typing speed
