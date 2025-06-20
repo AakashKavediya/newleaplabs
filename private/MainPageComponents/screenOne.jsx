@@ -27,7 +27,7 @@ export default function ThreeDScene() {
   // Earth Component
   function Earth() {
     const earthRef = useRef();
-    const { scene } = useGLTF("/assets/earth1/scene.gltf");
+    const { scene } = useGLTF("/khushiModels/cubsat/earth.glb");
     
     useFrame(() => {
       if (earthRef.current) {
