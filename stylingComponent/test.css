@@ -8,7 +8,7 @@
   font-family: 'K2D', sans-serif;
   color: white;
   min-height: 90vh;
-  padding-top: 10vh;
+  padding-top: 15vh;
   backdrop-filter: blur(5px);
 }
 
@@ -295,7 +295,7 @@
     /* Main Container */
 .beliefsat-container {
     width: 90%;
-    padding-top: 10vh;
+    padding-top: 15vh;
   }
   
   .year-sidebar-wrapper {
