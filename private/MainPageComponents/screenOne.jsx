@@ -73,7 +73,7 @@ export default function ThreeDScene() {
   function Lights() {
     return (
       <>
-        <ambientLight intensity={0.5} />
+        <ambientLight intensity={.02} />
         <directionalLight
           position={[10, 20, 10]}
           intensity={1}
