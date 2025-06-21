@@ -52,7 +52,7 @@ const information = [
   {
     id: 5,
     title: "BELIEF SAT - 0",
-    date: "01/10/2022",
+    date: "01/10/2021",
     image: "/assets/block/somaiyaPOD.glb",
     description: "Final payload delivered for integration with PSLV. IN-SPACE approval received...",
     contributors: [
@@ -63,7 +63,7 @@ const information = [
   {
     id: 6,
     title: "BELIEF SAT - 0",
-    date: "01/10/2021",
+    date: "01/10/2020",
     image: "/assets/block/somaiyaPOD.glb",
     description: "Final payload delivered for integration with PSLV. IN-SPACE approval received...",
     contributors: [
@@ -74,7 +74,7 @@ const information = [
   {
     id: 7 ,
     title: "BELIEF SAT - 0",
-    date: "01/10/2020",
+    date: "01/10/2019",
     image: "/assets/block/somaiyaPOD.glb",
     description: "Final payload delivered for integration with PSLV. IN-SPACE approval received...",
     contributors: [
@@ -85,7 +85,7 @@ const information = [
   {
     id: 8,
     title: "BELIEF SAT - 0",
-    date: "01/10/2019",
+    date: "01/10/2018",
     image: "/assets/block/somaiyaPOD.glb",
     description: "Final payload delivered for integration with PSLV. IN-SPACE approval received...",
     contributors: [
@@ -96,7 +96,7 @@ const information = [
   {
     id: 9,
     title: "BELIEF SAT - 0",
-    date: "01/10/2018",
+    date: "01/10/2017",
     image: "/assets/block/somaiyaPOD.glb",
     description: "Final payload delivered for integration with PSLV. IN-SPACE approval received...",
     contributors: [

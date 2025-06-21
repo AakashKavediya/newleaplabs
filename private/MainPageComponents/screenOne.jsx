@@ -48,7 +48,7 @@ export default function ThreeDScene() {
   // Satellite Component
   function Satellite() {
     const satelliteRef = useRef();
-    const { scene } = useGLTF("/khushiModels/cubsat/colourlessSat1.glb");
+    const { scene } = useGLTF("khushiModels/cubsat/satText03.glb");
     
     useFrame(() => {
       if (satelliteRef.current) {
