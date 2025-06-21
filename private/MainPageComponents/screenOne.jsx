@@ -10,7 +10,7 @@ export default function ThreeDScene() {
   const INITIAL_CAMERA_POSITION = new THREE.Vector3(0, 30, 25);
   const [isMobile, setIsMobile] = useState(false);
   const EARTH_SCALE = isMobile ? 0.48 : 0.58;
-  const SATELLITE_SCALE = isMobile ? 1.7 : 2;
+  const SATELLITE_SCALE = isMobile ? 0.08 : 0.1;
   const EARTH_POSITION = new THREE.Vector3(0, 0, 0);
   const SATELLITE_OFFSET = new THREE.Vector3(0, 10, -20);
 
@@ -48,13 +48,13 @@ export default function ThreeDScene() {
   // Satellite Component
   function Satellite() {
     const satelliteRef = useRef();
-    const { scene } = useGLTF("/assets/satellite1/scene.gltf");
+    const { scene } = useGLTF("/khushiModels/cubsat/colourlessSat1.glb");
     
     useFrame(() => {
       if (satelliteRef.current) {
         const time = Date.now() * 0.001;
-        satelliteRef.current.position.x = Math.sin(time) * 15;
-        satelliteRef.current.position.z = Math.cos(time) * 15 - 20;
+        satelliteRef.current.position.x = Math.sin(time) * 20;
+        satelliteRef.current.position.z = Math.cos(time) * 30 - 20;
         satelliteRef.current.lookAt(EARTH_POSITION);
       }
     });
